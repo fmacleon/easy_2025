@@ -1,0 +1,35 @@
+---
+---
+
+@import "jekyll-theme-minimal";
+
+
+h1, h2 {
+    color:#069;
+    text-align: center;
+  }
+
+  .logo_img {
+    img {
+      display: block;
+      background-color: #d2e1ec;
+      margin-left: auto;
+      margin-right: auto;
+      max-width:100%;
+      border-radius: 50%;
+      border: 5px solid #267CB9;
+      transition: transform 0.6s;
+      &:hover {
+        transform: scale3d(0.95,0.95,1);
+      }
+    }
+  }
+
+  header {
+    text-align: center;
+  }
+
+  footer {
+    text-align: center;
+  }
+    
